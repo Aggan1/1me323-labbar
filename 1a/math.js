@@ -14,5 +14,9 @@ export default function divide(a, b) {
   return a / b;
 }
 
+export function circleArea(radius) {
+  return Math.PI * radius * radius;
+}
+
 export const PI = 3.14159;
 export const SECRET_SAUCE = 42;
